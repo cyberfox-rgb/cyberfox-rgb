@@ -26,7 +26,7 @@ def port_scan(target_ip, start_port, end_port):
     print("Port taraması tamamlandı.")
 
 # Kullanım örneği
-target_ip = input(“Hedef siteyi girin”);  # Taranacak IP adresi
+target_ip = input(“Hedef portu girin”)  # Taranacak IP adresi
 start_port = 1  # Taramanın başlayacağı port numarası
 end_port = 100  # Taramanın biteceği port numarası
 
